@@ -1,0 +1,70 @@
+[0.007s] Invoking command in '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nolan/Documents/Reinforcement_Learning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nolan/Documents/Reinforcement_Learning/install/articubot_one
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.418s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.525s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.592s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.064s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.064s] -- Configured cppcheck include dirs: 
+[3.065s] -- Configured cppcheck exclude dirs and/or files: 
+[5.544s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.544s] -- Configured cpplint exclude dirs and/or files: 
+[5.860s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.474s] -- Added test 'lint_cmake' to check CMake code style
+[6.789s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.265s] -- Added test 'uncrustify' to check C / C++ code style
+[9.265s] -- Configured uncrustify additional arguments: 
+[9.573s] -- Added test 'xmllint' to check XML markup files
+[9.576s] -- Configuring done
+[9.578s] -- Generating done
+[9.579s] -- Build files have been written to: /home/nolan/Documents/Reinforcement_Learning/build/articubot_one
+[9.584s] Invoked command in '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nolan/Documents/Reinforcement_Learning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nolan/Documents/Reinforcement_Learning/install/articubot_one
+[9.585s] Invoking command in '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nolan/Documents/Reinforcement_Learning/build/articubot_one -- -j16 -l16
+[9.619s] Invoked command in '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nolan/Documents/Reinforcement_Learning/build/articubot_one -- -j16 -l16
+[9.629s] Invoking command in '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nolan/Documents/Reinforcement_Learning/build/articubot_one
+[9.636s] -- Install configuration: ""
+[9.636s] -- Execute custom install script
+[9.637s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[9.646s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/empty.yaml
+[9.653s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[9.660s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[9.667s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/camera.xacro
+[9.675s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[9.683s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[9.690s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[9.697s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[9.705s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/camera_launch.py
+[9.712s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[9.719s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/launch_sim_tg3_train.launch.py
+[9.726s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[9.733s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/worlds/TG_3.world
+[9.741s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/worlds/empty.world
+[9.748s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[9.756s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[9.765s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[9.773s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[9.780s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[9.787s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/path.sh
+[9.794s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/path.dsv
+[9.800s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.bash
+[9.807s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.sh
+[9.815s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.zsh
+[9.822s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.dsv
+[9.830s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/package.dsv
+[9.837s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[9.845s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[9.853s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[9.861s] -- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/package.xml
+[9.871s] Invoked command in '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nolan/Documents/Reinforcement_Learning/build/articubot_one

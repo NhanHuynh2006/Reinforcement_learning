@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000608] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.005587] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.005924] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/nolan/Documents/Reinforcement_Learning', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nolan/Documents/Reinforcement_Learning/install/articubot_one'], 'cwd': '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'nolan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nolan'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nolan/Documents/Reinforcement_Learning'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/nolan/miniconda3'), ('COLCON_PREFIX_PATH', '/home/nolan/Documents/Reinforcement_Learning/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nolan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nolan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/nolan/ardupilot_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/nolan/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NhanHuynh:@/tmp/.ICE-unix/1939,unix/NhanHuynh:/tmp/.ICE-unix/1939'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d164c669_c5f4_436e_8a00_e6231e6ab517'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nolan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('_CONDA_EXE', '/home/nolan/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nolan/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nolan/Documents/Reinforcement_Learning/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.099518] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099757] (-) TimerEvent: {}
+[0.163209] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.171036] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199876] (-) TimerEvent: {}
+[0.229342] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.233612] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.233910] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.234475] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.236679] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299600] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299953] (-) TimerEvent: {}
+[0.303743] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.303900] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.304166] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.307795] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400112] (-) TimerEvent: {}
+[0.418033] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500258] (-) TimerEvent: {}
+[0.502833] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.525481] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.591980] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.600357] (-) TimerEvent: {}
+[0.700640] (-) TimerEvent: {}
+[0.800965] (-) TimerEvent: {}
+[0.901316] (-) TimerEvent: {}
+[1.001640] (-) TimerEvent: {}
+[1.101987] (-) TimerEvent: {}
+[1.202312] (-) TimerEvent: {}
+[1.302608] (-) TimerEvent: {}
+[1.402967] (-) TimerEvent: {}
+[1.503329] (-) TimerEvent: {}
+[1.603658] (-) TimerEvent: {}
+[1.704028] (-) TimerEvent: {}
+[1.804446] (-) TimerEvent: {}
+[1.904842] (-) TimerEvent: {}
+[2.005168] (-) TimerEvent: {}
+[2.105491] (-) TimerEvent: {}
+[2.205856] (-) TimerEvent: {}
+[2.306200] (-) TimerEvent: {}
+[2.406583] (-) TimerEvent: {}
+[2.506952] (-) TimerEvent: {}
+[2.607313] (-) TimerEvent: {}
+[2.707655] (-) TimerEvent: {}
+[2.807984] (-) TimerEvent: {}
+[2.908350] (-) TimerEvent: {}
+[3.008691] (-) TimerEvent: {}
+[3.064714] (articubot_one) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.064969] (articubot_one) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.065087] (articubot_one) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.108823] (-) TimerEvent: {}
+[3.209175] (-) TimerEvent: {}
+[3.309527] (-) TimerEvent: {}
+[3.409914] (-) TimerEvent: {}
+[3.510289] (-) TimerEvent: {}
+[3.610641] (-) TimerEvent: {}
+[3.710957] (-) TimerEvent: {}
+[3.811238] (-) TimerEvent: {}
+[3.911638] (-) TimerEvent: {}
+[4.011920] (-) TimerEvent: {}
+[4.112271] (-) TimerEvent: {}
+[4.212640] (-) TimerEvent: {}
+[4.312955] (-) TimerEvent: {}
+[4.413272] (-) TimerEvent: {}
+[4.513628] (-) TimerEvent: {}
+[4.613988] (-) TimerEvent: {}
+[4.714290] (-) TimerEvent: {}
+[4.814650] (-) TimerEvent: {}
+[4.915008] (-) TimerEvent: {}
+[5.015369] (-) TimerEvent: {}
+[5.115747] (-) TimerEvent: {}
+[5.216084] (-) TimerEvent: {}
+[5.316410] (-) TimerEvent: {}
+[5.416859] (-) TimerEvent: {}
+[5.517221] (-) TimerEvent: {}
+[5.544507] (articubot_one) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.544761] (articubot_one) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.617345] (-) TimerEvent: {}
+[5.717651] (-) TimerEvent: {}
+[5.818047] (-) TimerEvent: {}
+[5.860704] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.918164] (-) TimerEvent: {}
+[6.018520] (-) TimerEvent: {}
+[6.118943] (-) TimerEvent: {}
+[6.219318] (-) TimerEvent: {}
+[6.319672] (-) TimerEvent: {}
+[6.419991] (-) TimerEvent: {}
+[6.474271] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.520104] (-) TimerEvent: {}
+[6.620429] (-) TimerEvent: {}
+[6.720773] (-) TimerEvent: {}
+[6.789925] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.820919] (-) TimerEvent: {}
+[6.921276] (-) TimerEvent: {}
+[7.021631] (-) TimerEvent: {}
+[7.121985] (-) TimerEvent: {}
+[7.222345] (-) TimerEvent: {}
+[7.322719] (-) TimerEvent: {}
+[7.423010] (-) TimerEvent: {}
+[7.523300] (-) TimerEvent: {}
+[7.623651] (-) TimerEvent: {}
+[7.723995] (-) TimerEvent: {}
+[7.824351] (-) TimerEvent: {}
+[7.924658] (-) TimerEvent: {}
+[8.025011] (-) TimerEvent: {}
+[8.125371] (-) TimerEvent: {}
+[8.225745] (-) TimerEvent: {}
+[8.326105] (-) TimerEvent: {}
+[8.426498] (-) TimerEvent: {}
+[8.526879] (-) TimerEvent: {}
+[8.627213] (-) TimerEvent: {}
+[8.727579] (-) TimerEvent: {}
+[8.827904] (-) TimerEvent: {}
+[8.928227] (-) TimerEvent: {}
+[9.028518] (-) TimerEvent: {}
+[9.128788] (-) TimerEvent: {}
+[9.229131] (-) TimerEvent: {}
+[9.265087] (articubot_one) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.265313] (articubot_one) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.329257] (-) TimerEvent: {}
+[9.429597] (-) TimerEvent: {}
+[9.529944] (-) TimerEvent: {}
+[9.573810] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.576461] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.578498] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[9.579579] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/nolan/Documents/Reinforcement_Learning/build/articubot_one\n'}
+[9.584838] (articubot_one) CommandEnded: {'returncode': 0}
+[9.585080] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[9.585099] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one', '--', '-j16', '-l16'], 'cwd': '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'nolan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nolan'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nolan/Documents/Reinforcement_Learning'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/nolan/miniconda3'), ('COLCON_PREFIX_PATH', '/home/nolan/Documents/Reinforcement_Learning/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nolan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nolan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/nolan/ardupilot_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/nolan/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NhanHuynh:@/tmp/.ICE-unix/1939,unix/NhanHuynh:/tmp/.ICE-unix/1939'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d164c669_c5f4_436e_8a00_e6231e6ab517'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nolan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('_CONDA_EXE', '/home/nolan/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nolan/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nolan/Documents/Reinforcement_Learning/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[9.619911] (articubot_one) CommandEnded: {'returncode': 0}
+[9.620478] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[9.628807] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one'], 'cwd': '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'nolan'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nolan'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nolan/Documents/Reinforcement_Learning'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/nolan/miniconda3'), ('COLCON_PREFIX_PATH', '/home/nolan/Documents/Reinforcement_Learning/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nolan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nolan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/nolan/ardupilot_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/home/nolan/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NhanHuynh:@/tmp/.ICE-unix/1939,unix/NhanHuynh:/tmp/.ICE-unix/1939'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d164c669_c5f4_436e_8a00_e6231e6ab517'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nolan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('_CONDA_EXE', '/home/nolan/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nolan/Documents/Reinforcement_Learning/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nolan/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nolan/Documents/Reinforcement_Learning/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[9.630043] (-) TimerEvent: {}
+[9.636706] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.636981] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.637303] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[9.646282] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[9.653899] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[9.660664] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[9.667662] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[9.675037] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[9.683195] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[9.690271] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[9.697337] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[9.705344] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/camera_launch.py\n'}
+[9.712330] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[9.719524] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/launch_sim_tg3_train.launch.py\n'}
+[9.726034] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[9.730136] (-) TimerEvent: {}
+[9.733574] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/worlds/TG_3.world\n'}
+[9.741294] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[9.748785] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[9.756843] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[9.765292] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[9.773433] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[9.780094] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[9.787462] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[9.794242] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[9.800506] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[9.807065] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[9.814990] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[9.822883] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[9.830275] (-) TimerEvent: {}
+[9.830483] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/package.dsv\n'}
+[9.837603] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[9.845417] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[9.853635] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[9.861904] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/nolan/Documents/Reinforcement_Learning/install/articubot_one/share/articubot_one/package.xml\n'}
+[9.871321] (articubot_one) CommandEnded: {'returncode': 0}
+[9.880453] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[9.880998] (-) EventReactorShutdown: {}
