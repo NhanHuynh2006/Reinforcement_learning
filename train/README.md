@@ -15,7 +15,7 @@ source /opt/ros/humble/setup.bash
 source ~/Documents/Reinforcement_Learning/install/setup.bash
 
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia \
-ros2 launch Reinforcement_Learning launch_sim_tg3_train.launch.py
+ros2 launch articubot_one launch_sim_tg3_train.launch.py
 ```
 
 ## 2) Cài Python deps (nếu thiếu)
@@ -39,7 +39,7 @@ source ~/Documents/Reinforcement_Learning/install/setup.bash
 
 source train/bin/activate
 
-python3 train/train_ppo_seg.py \
+~/Documents/Reinforcement_Learning/train/bin/python3 train/train_ppo_seg.py \
 --logdir ~/runs/lane_rl_seg_new \
 --publish-debug \
 --obs-size 160 \
