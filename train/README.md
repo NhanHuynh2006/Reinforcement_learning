@@ -12,7 +12,7 @@ export GAZEBO_IP=127.0.0.1
 export GAZEBO_MASTER_URI=http://127.0.0.1:11345
 
 source /opt/ros/humble/setup.bash
-source ~/Documents/Reinforcement_Learing/install/setup.bash
+source ~/Documents/Reinforcement_Learning/install/setup.bash
 
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia \
 ros2 launch Reinforcement_Learning launch_sim_tg3_train.launch.py
@@ -35,7 +35,7 @@ export GAZEBO_IP=127.0.0.1
 export GAZEBO_MASTER_URI=http://127.0.0.1:11345
 
 source /opt/ros/humble/setup.bash
-source ~/Documents/Reinforcement_Learing/install/setup.bash
+source ~/Documents/Reinforcement_Learning/install/setup.bash
 
 source train/bin/activate
 
